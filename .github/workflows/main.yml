@@ -28,8 +28,7 @@
           pip install requests
       - name: Grade repository
         run: |
-          export PAGES_URL=$(curl -sb -H "Accept:application/json" -u dluman:$GWIZ_TOKEN $GITHUB_API_URL/repos/$GITHUB_REPOSITORY/pages)
-          python config/.w3c.py style/recipe-style.css
+          sh .pages.sh
           gradle grade
         if: always()
         env:   
