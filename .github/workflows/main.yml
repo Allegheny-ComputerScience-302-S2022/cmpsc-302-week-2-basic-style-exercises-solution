@@ -29,6 +29,7 @@
       - name: Grade repository
         run: |
           bash config/.pages.sh
+          echo $PAGES
           gradle grade
         if: always()
         env:   
