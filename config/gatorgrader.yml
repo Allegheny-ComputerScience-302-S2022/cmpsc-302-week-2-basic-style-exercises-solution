@@ -22,4 +22,5 @@ ExecuteCommand --command "python config/.w3c.py recipe.html" --description "[HTM
 ExecuteCommand --command "python config/.w3c.py lorem-ipsum.html" --description "[HTML] lorem-ipsum.html passes W3C validation"
 ExecuteCommand --command "python config/.w3c.py style/lorem-style.css" --description "[CSS] example-style.css passes W3C validation"
 ExecuteCommand --command "python config/.w3c.py style/recipe-style.css" --description "[CSS] recipe-style.css passes W3C validation"
-
+ExecuteCommand --command "python config/.check.py docs/recipe.html link 1" --description "[HTML] recipe.html contains at least one <link> element to a stylesheet"
+ExecuteCommand --command "python config/.check.py docs/lorem-ipsum.html link 1" -- description "[HTML] lorem-ipsum.html contains at least one <link> element to stylesheet"
