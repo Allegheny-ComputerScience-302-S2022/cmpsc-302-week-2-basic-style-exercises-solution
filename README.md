@@ -90,7 +90,7 @@ URL!
   * If I (the instructor) were to clone my own repository, I'd enter (your link will look different):
 
 ```
-git clone git@github.com:Allegheny-ComputerScience-302-S2022/cmpsc-302-week-1-basic-html-lab.git
+git clone git@github.com:Allegheny-ComputerScience-302-S2022/cmpsc-302-week-2-basic-style-exercises.git
 ```
 
 ## Wrap-up
@@ -100,7 +100,7 @@ git clone git@github.com:Allegheny-ComputerScience-302-S2022/cmpsc-302-week-1-ba
 The GitHub platform is a place to store your work. So, it makes some sense that should be able to _clone_ (download) from it, and push back (upload) to it. Here, we'll learn this second part.
 
 - [ ] `cd` to your `~` folder
-- [ ] Locate your `cmpsc-302-week-1-basic-html-lab` folder and `cd` to it.
+- [ ] Locate your `cmpsc-302-week-2-basic-style-exercises` folder and `cd` to it.
 
 Once in this folder, we need to tell git that there have been changes.
 
