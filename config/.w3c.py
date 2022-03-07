@@ -43,7 +43,7 @@ def validate_css(endpoint: str, page: str) -> bool:
 
   print(combined_messages)
 
-return parse_response(combined_messages)
+  return parse_response(combined_messages)
 
 
 def main():
