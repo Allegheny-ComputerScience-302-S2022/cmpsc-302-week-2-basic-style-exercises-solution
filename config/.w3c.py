@@ -25,16 +25,25 @@ def validate_html(endpoint: str, page: str) -> bool:
   return evaluate(response)
 
 def validate_css(endpoint: str, page: str) -> bool:
+  print(f"{endpoint}{page}")
   validator = requests.get(
-    "http://jigsaw.w3.org/css-validator/validator/",
+    "http://jigsaw.w3.org/css-validator/validator",
     params = {
       "uri":f"{endpoint}{page}",
       "profile":"css3",
-      "out":"json"
+      "output":"json"
     }
   )
-  print(validator.text)
-  #response = parse_response(validator.text)
+
+  response = json.loads(validator.text)
+
+  combined_messages = {"messages":[]}
+  combined_messages["messages"] = ["!"] * int(response["result"]["errorcount"])
+  combined_messages["messages"] += ["!"] * int(response["result"]["warningcount"])
+
+  print(combined_messages)
+
+return parse_response(combined_messages)
 
 
 def main():
