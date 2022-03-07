@@ -1,0 +1,11 @@
+---
+name: CMPSC 302: Basic Styling (exercises)
+break: true
+indent: 4
+---
+    
+ExecuteCommand --command "python config/.w3c.py recipe.html" --description "[HTML] recipe.html passes W3C validation"
+ExecuteCommand --command "python config/.w3c.py lorem-ipsum.html" --description "[HTML] lorem-ipsum.html passes W3C validation"
+ExecuteCommand --command "python config/.w3c.py style/example-style.css" --description "[CSS] example-style.css passes W3C validation"
+ExecuteCommand --command "python config/.w3c.py style/recipe-style.css" --description "[CSS] recipe-style.css passes W3C validation"
+
