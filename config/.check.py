@@ -32,6 +32,7 @@ def check_tag(html: BeautifulSoup, tag: str, count: int = 1) -> bool:
   tags = html.find_all(tag)
   if len(tags) < count:
     return False
+  print(f"PASSED: {tag}")
   return True
 
 def main():
@@ -50,7 +51,6 @@ def main():
 
   for tag in tags:
     valid_tags = check_tag(html, tag, count)
-    if valid_tags: break
 
   if valid_uri and valid_tags:
     sys.exit(0)
