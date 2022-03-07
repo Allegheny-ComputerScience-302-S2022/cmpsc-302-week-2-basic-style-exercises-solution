@@ -19,6 +19,8 @@ we'll continue this work well into next week. But, by Spring Break, you'll be at
 
 ### Requirements
 
+* Copy your `2-recipe.html` file to the `docs/` folder and rename it `1-recipe.html`
+
 #### `docs/lorem-style.css`
 
 The `lorem-style.css` file must style the following `tag`s _at a minimum_:

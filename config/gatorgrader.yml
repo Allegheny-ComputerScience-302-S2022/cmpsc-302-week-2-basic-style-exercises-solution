@@ -24,6 +24,12 @@ docs/0-recipe.html:
     MatchFileRegex --regex "class(\s)?\=(\s)?.*detail\-label.*" --count 1 --description "[HTML] 0-recipe.html contains the detail-label class"
     MatchFileRegex --regex "class(\s)?\=(\s)?.*detail\-text.*" --count 1 --description "[HTML] 0-recipe.html contains the detail-text class"
 
+docs/1-recipe.html:
+    MatchFileFragment --fragment "TODO" --count 0 --exact --description "[HTML] 1-recipe.html no TODOs exist"
+    MatchFileRegex --regex "id(\s)?\=.*container.*" --count 1 --exact --description "[HTML] 1-recipe.html contains the container ID"
+    MatchFileRegex --regex "class(\s)?\=(\s)?.*detail\-label.*" --count 1 --description "[HTML] 1-recipe.html contains the detail-label class"
+    MatchFileRegex --regex "class(\s)?\=(\s)?.*detail\-text.*" --count 1 --description "[HTML] 1-recipe.html contains the detail-text class"
+    MatchFileRegex --regex "href(\s)?\=(\s)?.*recipe\-style.css" --count 1 --exact --description "[HTML] 1-recipe.html references the recipe-style.css file"
   
 docs/style/lorem-style.css:
     MatchFileFragment --fragment "TODO" --count 0 --exact --description "[CSS] lorem-style.css no TODOs exist"
@@ -44,3 +50,5 @@ ExecuteCommand --command "python config/.w3c.py style/recipe-style.css" --descri
 ExecuteCommand --command "python config/.check.py docs/0-recipe.html link 1" --description "[HTML] 0-recipe.html contains at least one <link> element to a stylesheet"
 ExecuteCommand --command "python config/.check.py docs/lorem-ipsum.html link 1" --description "[HTML] lorem-ipsum.html contains at least one <link> element to stylesheet"
 ExecuteCommand --command "python config/.check.py docs/lorem-ipsum.html em strong 2" --description "[HTML] lorem-ipsum.html contains at least two <em> and <strong> elements"
+ExecuteCommand --command "python config/.check.py docs/1-recipe.html link 1" --description "[HTML] 1-recipe.html contains at least one <link> element to a stylesheet"
+ExecuteCommand --command "python config/.check.py docs/1-recipe.html footer 1" --description "[HTML] 1-recipe.html contains a <footer> element"
