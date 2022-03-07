@@ -28,7 +28,7 @@
           pip install requests
       - name: Grade repository
         run: |
-          /.pages.sh
+          sh config/.pages.sh
           gradle grade
         if: always()
         env:   
