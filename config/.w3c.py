@@ -1,4 +1,4 @@
-import sys
+'import sys
 import json
 import requests
 import os
@@ -27,7 +27,7 @@ def validate_html(endpoint: str, page: str) -> bool:
 def validate_css(endpoint: str, page: str) -> bool:
   print(f"{endpoint}{page}")
   validator = requests.get(
-    "http://jigsaw.w3.org/css-validator/validator",
+    "https://jigsaw.w3.org/css-validator/validator",
     params = {
       "uri":f"{endpoint}{page}",
       "profile":"css3",
