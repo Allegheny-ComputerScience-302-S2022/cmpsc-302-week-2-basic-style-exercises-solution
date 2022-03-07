@@ -25,7 +25,6 @@ def validate_html(endpoint: str, page: str) -> bool:
   return evaluate(response)
 
 def validate_css(endpoint: str, page: str) -> bool:
-  print(f"{endpoint}{page}")
   validator = requests.get(
     "https://jigsaw.w3.org/css-validator/validator",
     params = {

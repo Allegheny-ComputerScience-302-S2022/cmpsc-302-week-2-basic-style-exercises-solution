@@ -3,7 +3,19 @@ name: CMPSC 302: Basic Styling (exercises)
 break: true
 indent: 4
 ---
-    
+
+docs/style/recipe-style.css:
+    MatchFileFragment --fragment "TODO" --count 0 --exact --description "[CSS] recipe-style.css no TODOs exist"
+
+docs/style/lorem-style.css:
+    MatchFileFragment --fragment "TODO" --count 0 --exact --description "[CSS] lorem-style.css no TODOs exist"
+    MatchFileRegex --regex "html\s\{.*\}" --count 1 --exact --description "[CSS] lorem-style.css <html> root element styled"
+    MatchFileRegex --regex "body\s\{.*\}" --count 1 --exact --description "[CSS] lorem-style.css <body> element styled"
+    MatchFileRegex --regex "h1\s\{.*\}" --count 1 --exact --description "[CSS] lorem-style.css <h1> element styled"
+    MatchFileRegex --regex "a.*\{.*\}" --count 1 --description "[CSS] lorem-style.css <a> elements styled"
+    MatchFileRegex --regex "div\s\{.*\}" --count 1 --exact --description "[CSS] lorem-style.css <div> elements styled"
+    MatchFileRegex --regex "p\s\{.*\}" --count 1 --exact --description "[CSS] lorem-style.css <p> elements styled"    
+
 ExecuteCommand --command "python config/.w3c.py recipe.html" --description "[HTML] recipe.html passes W3C validation"
 ExecuteCommand --command "python config/.w3c.py lorem-ipsum.html" --description "[HTML] lorem-ipsum.html passes W3C validation"
 ExecuteCommand --command "python config/.w3c.py style/example-style.css" --description "[CSS] example-style.css passes W3C validation"
