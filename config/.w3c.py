@@ -35,7 +35,7 @@ def validate_css(endpoint: str, page: str) -> bool:
     }
   )
 
-  response = json.loads(validator.text
+  response = json.loads(validator.text)
 
   return response["cssvalidation"]["validity"] == "true"
 
