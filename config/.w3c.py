@@ -44,7 +44,7 @@ def validate_css(endpoint: str, page: str) -> bool:
 
   print(combined_messages)
 
-  return evaluate(json.dumps(combined_messages))
+  return evaluate(combined_messages)
 
 
 def main():
