@@ -6,7 +6,9 @@ indent: 4
 
 docs/style/recipe-style.css:
     MatchFileFragment --fragment "TODO" --count 0 --exact --description "[CSS] recipe-style.css no TODOs exist"
-
+    MatchFileRegex --regex "#[a-zA-Z0-9\-_]+\s\{.*\}" --count 1 --description "[CSS] recipe-style.css styles at least one id"
+    MatchFileRegex --regex "\.[a-zA-Z0-9\-_]+\s\{.*\s}" --count 1 --description "[CSS] recipe-style.css styles at least one class"
+  
 docs/style/lorem-style.css:
     MatchFileFragment --fragment "TODO" --count 0 --exact --description "[CSS] lorem-style.css no TODOs exist"
     MatchFileRegex --regex "html\s\{.*\}" --count 1 --exact --description "[CSS] lorem-style.css <html> root element styled"
@@ -18,6 +20,6 @@ docs/style/lorem-style.css:
 
 ExecuteCommand --command "python config/.w3c.py recipe.html" --description "[HTML] recipe.html passes W3C validation"
 ExecuteCommand --command "python config/.w3c.py lorem-ipsum.html" --description "[HTML] lorem-ipsum.html passes W3C validation"
-ExecuteCommand --command "python config/.w3c.py style/example-style.css" --description "[CSS] example-style.css passes W3C validation"
+ExecuteCommand --command "python config/.w3c.py style/lorem-style.css" --description "[CSS] example-style.css passes W3C validation"
 ExecuteCommand --command "python config/.w3c.py style/recipe-style.css" --description "[CSS] recipe-style.css passes W3C validation"
 
