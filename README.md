@@ -19,7 +19,9 @@ we'll continue this work well into next week. But, by Spring Break, you'll be at
 
 ### Requirements
 
-* Copy your `2-recipe.html` file to the `docs/` folder and rename it `1-recipe.html`
+#### `docs/lorem-ipsum.html`
+
+* Use at least `2` `<strong>` and `<em>` tags
 
 #### `docs/lorem-style.css`
 
@@ -44,6 +46,7 @@ work to _at a minumum_ use the styling in the included stylesheet. You can, of c
 * `html`
 * `section`
 * `h1`, `footer`
+  * You will need to add a `<footer>` element to _your recipe_ (`1-recipe.html`), likely
 * `ul`
 * `a`
   * including "psuedo-class": `hover`, `visited`
@@ -53,6 +56,8 @@ work to _at a minumum_ use the styling in the included stylesheet. You can, of c
 * `container` (`id`)
 * `detail-label` (`class`)
 * `detail-text` (`class`)
+
+Don't forget that this sheet should show up in the `<head>` of the `1-recipe.html` file!
 
 ## Making a GitHub Pages page
 
