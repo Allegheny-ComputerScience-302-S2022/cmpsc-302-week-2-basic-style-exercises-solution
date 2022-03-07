@@ -35,16 +35,7 @@ def validate_css(endpoint: str, page: str) -> bool:
     }
   )
 
-  response = json.loads(validator.text)
-  response = response["cssvalidation"]
-
-  combined_messages = {"messages":[]}
-  combined_messages["messages"] = ["!"] * int(response["result"]["errorcount"])
-  combined_messages["messages"] += ["!"] * int(response["result"]["warningcount"])
-
-  print(combined_messages)
-
-  return evaluate(combined_messages)
+  return validator["cssvalidation"] == "true"
 
 
 def main():
