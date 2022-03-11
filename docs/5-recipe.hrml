@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>CMPSC 302 Cookbook: (Overnight Cinnamon Rolls)</title>
+    <link href="style/recipe-style.css" rel="stylesheet">
+  </head>
+  <body>
+  <div id="container">
+    <!-- Include recipe elements here -->
+    <h1>Overnight Cinnamon Rolls</h1>
+    <ol>
+      <li><a href = "#summary">Recipe Summary</a></li>
+      <li><a href = "#ingredients">Ingredient List</a></li>
+      <li><a href = "#directions">Recipe Directions</a></li>
+    </ol>
+
+    <img src = "img/cinnamon-rolls.jpg" alt = "A dozen cinnamon rolls">
+
+    <section id = "summary">
+    <p>By combining an overnight rise with a two-layer frosting, this recipe yields some of the most amazing cinnamon buns you've ever had.</p>
+
+    <div>
+    <h2>Timings</h2>
+    <ul>
+      <ul>
+        <li><span class="detail-text"><span class="detail-label">Prep</span>1 hour</span></li>
+        <li><span class="detail-text"><span class="detail-label">Rise</span>36 hours</span></li>
+        <li><span class="detail-text"><span class="detail-label">Cook</span>30 min</span></li>
+        <li><span class="detail-text"><span class="detail-label">Total</span>3 days</span></li>
+        <li><span class="detail-text"><span class="detail-label">Yields</span>1 dozen cinnamon rolls</span></li>
+      </ul>
+    </ul>
+    </div>
+
+</section>
+
+    <section id = "ingredients">
+    <h2>Ingredients</h2>
+
+    <ul>
+      <li>10 tablespoons butter, cut into 1-inch pieces</li>
+      <li>3/4 cup whole milk, warmed</li>
+      <li>4 large eggs</li>
+      <li>84g / 1/4 cup honey</li>
+      <li>540g / 4 1/2 cups all-purpose flour</li>
+      <li>10g / 2 1/4 teaspoons instant yeast</li>
+      <li>14g / 2 teaspoons salt</li>
+      <li>8 tablespoons butter, room temperature</li>
+      <li>4 ounces cream cheese, room temperature</li>
+      <li>1 teaspoon vanilla extract</li>
+      <li>1/4 teaspoon salt</li>
+      <li>114g / 1 cup confectioners' sugar</li>
+      <li>144g / ¾ cup light brown sugar</li>
+      <li>2 teaspoons cinnamon</li>
+      <li>1/4 teaspoon cloves</li>
+      <li>1/8 teaspoon salt</li>
+      <li>2 tablespoons unsalted butter, melted and cooled</li>
+      </ul>
+      </section>
+    
+    <section id = "directions">
+      <div id = "general-dir">
+    <h2>Directions</h2>
+
+    <ol>
+      <li>Grease a large bowl and set aside.</li>
+      <li>Let butter come to room temperature</li>
+      <li>Alternately, microwave on low setting until soft, about 1 minute. Set aside.</li>
+      <li>Heat milk in microwave on high until 100F to 110F, about 1 minute. Put in a medium bowl.</li>
+      <li>Add the eggs and honey to bowl with milk. Whisk to combine. Set aside.</li>
+      <li>In the bowl of a stand mixer fitted with a paddle, mix the flour, yeast, and salt on low until combined, about 30 seconds.</li>
+      <li>While running on low, add the milk-egg-honey mixture. Mix until combined, about 1 minute.</li>
+      <li>Transfer to a lightly greased bowl. The dough will be sticky and you may need a spatula to scrape the dough into the bowl.</li>
+      <li>Cover the bowl with plastic wrap and let rise for 30 minutes.</li>
+    </ol>
+    </div>
+
+
+
+    <h3>Rising and Folding (x4)</h3>
+    
+
+    <ol>
+    <li>Using your hands or a spatula, fold the dough up and over onto itself.</li>
+    <li>Turn the bowl 20*, fold dough onto itself, and repeat until it's been folded 8 to 10 times.</li>
+    <li>Re-cover the bowl with plastic and let rise for 30 minutes.</li>
+    <li>Repeat the series of folding three more times, for a total of four times and a net rise of 2 hours.</li>
+    <li>Tightly cover the bowl with plastic wrap adn refrigerate overnight or up to 72 hours.</li>
+  </ol>
+
+
+    <h3>Assembly</h3>
+
+  <ol>
+    <li>Remove dough from fridge. On a generously floured work surface, knead the dough until smooth, about 3 minutes.</li>
+    <li>Shape into a ball, dust with flour, and cover with a tea towel to let it come to room temperature, about 20-30 minutes.</li>
+</ol>
+    <h3>Filling</h3>
+    
+    <ol>
+      <li>In a medium bowl, combine light brown sugar, cinnamon, cloves, and salt. Set aside.</li>
+      <li>Roll dough out into a 16x12 inch rectangle. Using a pastry brush, coat one side with butter.</li>
+      <li>Sprinkle reserved sugar-and spice mixture evenly on the dough. Using the long edge, roll the dough into a tight ball, pressing it to seal.</li>
+      <li>Using a sharp knife, scissors, bench scraper, or thin string, cut the dough into 23 equal sized pieces. Place into prepared pan.</li>
+      <li>Cover pan and place back in fridge to let me rise overnight or up to 18 hours</li>
+    </ol>
+
+    <div>
+    <h3>Baking</h3>
+
+    <ol>
+    <li>The next morning, remove tray from the fridge and let come to room temperature, about 30 to 45 minutes.</li>
+    <li>Adjust an oven rack to the middle position. Preheat the oven to 350F.</li>
+    <li>Uncover tray and bake until rolls are golden brown, about 27 to 32 minutes.</li>
+    <li>While the rolls are baking, prepare the icing.</li>
+    <li>Transfer the pan to a wire rack and let cool for 5 minutes</li>
+    <li>In a large bowl, beat butter and cream cheese with an electric hand mixer until smooth and creamy.
+    <li>Add the vanilla and salt to mix on low to combine.</li>
+    <li>Add the confectioners' sugar and mix on low until combined.</li>
+    <li>Scrape down the sides of the bowl and mix on medium until the icing is light and fluffy, 3 to 4 minutes.</li>
+    <li>Using an offset spatula or table knife, apply a thin layer of the cream cheese icing to the rolls after they have cooled for 5 minutes, using about one-third of the mixture.</li>
+    <li>Let the rolls for another 15 to 20 minutes. Top with the rest of the icing and serve.</li>
+        </ol>
+
+    <footer>
+      <cite>Source: <a href="https://www.makebetterfood.com/recipes/overnight-cinnamon-rolls/">Make Better Food</a></cite>
+    </footer>
+</div>
+</div>
+      </section>
+
+  </body>
+</html>
